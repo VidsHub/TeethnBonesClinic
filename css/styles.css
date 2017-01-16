@@ -1,0 +1,192 @@
+body {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 16px;
+    z-index:0;
+    margin: 0px;
+}
+
+.navbar-inverse {
+     background: #303F9F;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color:#eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+
+#navbar {
+  clear: both;
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/logo1.jpg') no-repeat;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Clinic name */
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#subtitle {
+  margin: 0px;
+  font-size: 1.1em;
+  color:white;
+}
+
+#phone1 a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+
+#phone1 a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.drpanel {
+  margin-left: 10px;
+}
+
+.panel-title h3 {
+  font-size: 1.2em;
+}
+.panel-title span {
+  font-size: 0.7em;
+}
+
+footer {
+   margin-top: 10px;
+   border: 1px solid black; 
+    
+}
+/**
+@media (min-width: 768px) and (max-width:991px) {
+    #main-content {
+    margin-top: 160px;
+}
+
+}
+**/
+/********** Medium devices only **********/
+/**
+@media (min-width: 992px) and (max-width: 1199px) {
+    #main-content {
+    margin-top: 150px;
+    }
+}
+    
+@media (min-width: 1200px) {
+    #main-content {
+    margin-top: 120px;
+    }
+    
+}
+**/
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #call-btn1 > a {
+    font-size: 1.5em;
+    display: block;
+    /**margin-top: 65px;**/
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+    border: 2px solid #fff;
+    background-color: #303F9F;
+    color:#eeeeee;
+  }
+  #call-btn2 > a {
+    font-size: 1.5em;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+    border: 2px solid #fff;
+    background-color: #303F9F;
+    color:#eeeeee;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+    #navbar a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+    #navbar a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #subtitle {
+    clear: both;
+    font-size: 0.8em;
+  }
+  .drpanel {
+    margin-top: 10px;
+  }
+
+ 
+  
+}
+
+/********** Extra extra small devices only **********/
+@media (max-width: 320px) {
+
+  #subtitle {
+    clear: both;
+    font-size: 0.7em;
+  }
+
+  }
+  
+ 
+  
+    
+
+    
+
+    
+   
+   
+  
